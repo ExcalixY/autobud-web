@@ -1,0 +1,53 @@
+.winUsers {
+    background-color: white;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 0 16em 0 16em;
+}
+
+.winUsers h1{
+    color: rgba(0, 138, 218, 1);
+    font-size: xx-large;
+    margin: auto;
+}
+
+.winUsers p {
+    color: black;
+    margin: auto;
+}
+
+.users_elList {
+    list-style: inside;
+    display: flex;
+    gap: 5vw;
+    padding: 0;
+}
+
+.users_elList li {
+    margin: 20px;
+}
+
+.users_starList {
+    display: flex;
+    padding: 0;
+    margin: 5px 0 0 0;
+    gap: 5px;
+}
+
+.users_starList li {
+    margin: 0;
+}
+
+.users_starList img {
+    width: 30px;
+    height: 30px;
+    margin: 0;
+}
+
+.users_notice {
+    align-self: center;
+    text-align-last: right;
+    margin: auto 0 auto auto;
+}

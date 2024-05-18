@@ -1,0 +1,77 @@
+.winWhyUs {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.winWhyUs div{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.whyUs_elListRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 3%
+}
+
+.whyUs_elListRight li {
+    margin: 3%;
+}
+
+.whyUs_elListRight li div {
+    display: flex;
+    justify-content: start;
+    text-align: start;
+}
+
+.whyUs_elListLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: end;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 3%
+}
+
+.whyUs_elListLeft li {
+    margin: 3%;
+}
+
+.whyUs_elListLeft li div {
+    display: flex;
+    justify-content: end;
+    text-align: end;
+}
+
+.whyUs_title {
+    font-size: xxx-large;
+    align-self: center;
+}
+
+.whyUs_elListLeft h1 {
+    margin: 2%;
+    text-align: end;
+}
+
+.whyUs_elListRight h1 {
+    margin: 2%;
+    text-align: end;
+}
+
+.whyUs_advatageList p {
+    margin: auto;
+    text-align: end;
+}
+
+.whyUs_spacer {
+    margin: 0 2% 2% 2%;
+}

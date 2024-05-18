@@ -1,0 +1,58 @@
+.winIntro {
+    background-color: transparent;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    height: 75vh;
+    display: flex;
+
+    padding: 0 16em 0 16em;
+}
+
+.intro_subWinText {
+    height: fit-content;
+    align-self: center;
+}
+
+.intro_textName {
+    font-size: xxx-large;
+    margin: 0;
+}
+
+.intro_textPhrase {
+    margin: 0;
+}
+
+.intro_spacer {
+    margin: 2rem 0 2rem 0;
+    border: none;
+    height: 1px;
+    background-color: white;
+}
+
+.intro_btnStart {
+    padding: 13px 20px 13px 20px;
+    color: white;
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+    outline-color: white;
+    outline: auto;
+
+    transition: all 0.15s ease;
+
+    font-family: 'Nunito';
+    font-size: 15px;
+}
+
+.intro_btnStart:hover {
+    background-color: #FFFFFF;
+    color: rgba(0, 138, 218, 1);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+    outline-color: transparent;
+}
+
+.intro_btnStart:active{
+    opacity: 0.8;
+    transition: 0.15s;
+}

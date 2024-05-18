@@ -1,0 +1,48 @@
+.winTeam {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 4vh 20vw;
+    height: fit-content;
+    gap: 5%;
+}
+
+.team_memList {
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+}
+
+.team_memList img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 1%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.team_memText {
+    align-self: center;
+}
+
+.team_memText p {
+    font-weight: bold;
+    margin: 1%;
+}
+
+.team_memText h1 {
+    font-weight: bold;
+    margin: 1%;
+    color: rgba(0, 138, 218, 1);
+}
+
+.team_spacer {
+    height: 1px;
+    width: 60vw;
+    background-color: rgb(202, 202, 202);
+    border: none;
+    margin: 2%;
+    align-self: center;
+}
