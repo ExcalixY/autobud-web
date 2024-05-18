@@ -1,8 +1,12 @@
+html {
+    margin: 0;
+    width: 100vw;
+}
+
 body {
     margin: 0;
     padding: 0;
     font-weight: 500;
-    
     background: linear-gradient(90deg, rgba(72,72,176,1) 0%, rgba(0,138,218,1) 100%);
 
     color: white;
@@ -63,4 +67,16 @@ header {
     border: none;
     height: 1px;
     background-color: rgb(202, 202, 202);
+}
+
+
+.navbar_hamburger {
+    width: 30px;
+    height: 30px;
+    padding: auto;
+}
+
+.navbar_hamburger img {
+    height: 100%;
+    width: 100%;
 }
