@@ -24,6 +24,7 @@
 .about_title {
     font-weight: 700;
     margin: auto;
+    display: flex;
 }
 
 .about_description {
@@ -71,4 +72,33 @@
     opacity: 0.8;
     transition: 0.15s;
     background-color: rgb(240, 240, 240);
+}
+
+@media (max-width: 768px) {
+    .winAbout {
+        flex-direction: column;
+        height: fit-content;
+        padding: 5vw;
+    }
+
+    .about_spacer {
+        width: 100%;
+        height: 1px;
+        margin: 5vh 0;
+    }
+
+    .about_text {
+        width: 100%;
+    }
+
+    .about_image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .about_btnRead {
+        align-self: center;
+        margin: auto;
+        margin-top: 5vh;
+    }
 }

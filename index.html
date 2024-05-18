@@ -11,6 +11,8 @@
             @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
         </style>
 
+        
+
         <link rel='stylesheet' type='text/css' href='autobud-style/intro.css'>
         <link rel='stylesheet' type='text/css' href='autobud-style/main.css'>
         <link rel='stylesheet' type='text/css' href='autobud-style/users.css'>
@@ -108,6 +110,18 @@
 
         <div class="winWhyUs">
             <h1 class="whyUs_title">Why choose us over other alternatives?</h1>
+
+            <ul class="mobile_whyUs_btnList">
+                <li><a onclick="changeAdv(1, 1)">Speed</a></li>
+                <li><a onclick="changeAdv(2, 1)">Price</a></li>
+                <li><a onclick="changeAdv(3, 1)">Simple</a></li>
+            </ul>
+
+            <div class="mobile_whyUs_advantage">
+                <img id="mobile_whyUs_advImg" style="height: 60vh;" src="autobud-assets/icons/lightning-bolt-weather-storm-energy-electricity-svgrepo-com.svg"">
+                <h1 id="mobile_whyUs_advTitle" style="margin-bottom: 0;">Fast</h1>
+                <p id="mobile_whyUs_advDesc">High-quality information provided promptly.</p>
+            </div>
 
             <div class="whyUs_advatageList">
                 <ul class="whyUs_elListLeft">
@@ -252,5 +266,7 @@
                 </ul>
             </div>
         </div>
+
+        <script src="autobud-scripts/btn_changeAdv.js"></script>
     </body>
 </html>
