@@ -1,7 +1,5 @@
 html {
     margin: 0;
-    max-width: auto;
-    min-width: auto;
 }
 
 body {
@@ -111,6 +109,4 @@ header {
     .navbar_hamburger {
         display: block;
     }
-
-
 }
