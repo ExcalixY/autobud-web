@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     
-    padding: 0 16em 0 16em;
+    padding: 0 10vw;
 }
 
 .winUsers h1{
@@ -26,7 +26,7 @@
 }
 
 .users_elList li {
-    margin: 20px;
+    margin: 10px;
 }
 
 .users_starList {
@@ -50,4 +50,41 @@
     align-self: center;
     text-align-last: right;
     margin: auto 0 auto auto;
+}
+
+@media (max-width: 768px) {
+    .winUsers {
+        padding: 5vw;
+        height: 40vh;
+        flex-direction: column;
+    }
+
+    .winUsers h1 {
+        text-align: center;
+    }
+
+    .winUsers p {
+        text-align: center;
+    }
+
+    .users_notice {
+        text-align-last: center;
+        margin: 0;
+    }
+
+    .users_elList {
+        flex-direction: column;
+        gap: 10px;
+        margin: 0
+    }
+
+    .users_starList {
+        gap: 2px;
+        align-self: center;
+        justify-content: center;
+    }
+
+    .users_starList img {
+        align-self: center;
+    }
 }
