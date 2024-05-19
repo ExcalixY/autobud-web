@@ -2,6 +2,7 @@
     background-color: white;
     height: 15vh;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     
     padding: 0 10vw;
@@ -52,7 +53,29 @@
     margin: auto 0 auto auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
+    .winUsers {
+        background-color: white;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        
+        padding: 0 10vw;
+    }
+
+    .users_notice {
+        text-align-last: center;
+        margin: 10px 0;
+    }
+
+    .users_notice br {
+        display: none;
+    }
+}
+
+@media (max-width: 690px) {
     .winUsers {
         padding: 5vw;
         height: fit-content;
@@ -86,5 +109,9 @@
 
     .users_starList img {
         align-self: center;
+    }
+
+    .users_notice br {
+        display: inline;
     }
 }

@@ -55,6 +55,7 @@
 .whyUs_title {
     font-size: xxx-large;
     align-self: center;
+    text-align: center;
 }
 
 .whyUs_elListLeft h1 {
@@ -67,7 +68,12 @@
     text-align: end;
 }
 
-.whyUs_advatageList p {
+.whyUs_elListRight p {
+    margin: auto;
+    text-align: start;
+}
+
+.whyUs_elListLeft p {
     margin: auto;
     text-align: end;
 }
