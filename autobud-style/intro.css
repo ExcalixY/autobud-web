@@ -56,3 +56,9 @@
     opacity: 0.8;
     transition: 0.15s;
 }
+
+@media (max-width: 768px) {
+    .winIntro {
+        height: 76vh;
+    }
+}

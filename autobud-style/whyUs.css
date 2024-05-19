@@ -88,7 +88,7 @@
 @media (max-width: 768px) {
     .winWhyUs {
         padding: 5vw;
-        height: 96vh;
+        height: fit-content;
         flex-direction: column;
     }
 
@@ -150,5 +150,14 @@
     
     #mobile_whyUs_advDesc {
         height: 44px;
+    }
+
+    #mobile_whyUs_advTitle {
+        margin: 0
+    }
+
+    #mobile_whyUs_advImg {
+        height: 200px;
+        margin: 2em;
     }
 }
