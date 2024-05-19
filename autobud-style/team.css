@@ -88,6 +88,18 @@
         box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
     }
 
+    .mobile_team_memName {
+        height: 3em;
+    }
+
+    .mobile_team_memDesc1 {
+        height: 6em;
+    }
+
+    .mobile_team_memImg {
+        transition: 
+    }
+
     .mobile_team_buttons {
         display: flex;
         justify-content: space-between;
